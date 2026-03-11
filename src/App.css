@@ -1,0 +1,122 @@
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body{
+  height: 100%;
+  min-width: 100%;
+}
+
+body{
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.header{
+  background-color: #313b56;
+  padding: 20px;
+  width: 100%;
+ 
+}
+
+h1{
+  text-align: center;
+  color:  #f9e5de;
+  font-size: 50px;
+}
+
+h2{
+  text-align: center;
+  color: #313b56;
+  font-size: 25px;
+  margin: 20px;
+}
+
+p{
+  text-align: center;
+  color: #313b56;
+  font-size: 16px;
+  margin: 20px;
+}
+
+.card{
+  position: relative;
+  max-width: 300px;
+  min-height: 300px;
+  background-color: #f9e5de;
+  border: solid 2px #313b56;
+  border-radius: 10px;
+  margin: 5px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.card-check {
+  transform: rotateY(180deg);
+}
+
+.card::after{
+  content: attr(data-back);
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9e5de;
+  border: solid 2px #313b56;
+  border-radius: 10px;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+.control {
+    display: flex;          
+    align-items: center;     
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+
+.button:disabled{
+  border: grey solid 1px;
+  background-color: lightgray;
+  color: gray;
+}
+
+button:disabled:hover,
+button:disabled:focus {
+  border:grey solid 1 px;
+  background: lightgray;
+  color: gray;
+  transform: scale(1);
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #313b56;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: white;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+

@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "front":"apple",
+        "back":"яблоко"
+    },
+    {
+        "id":2,
+        "front":"orange",
+        "back":"апельсин"
+    },
+    {
+        "id":3,
+        "front":"banana",
+        "back":"банан"
+    },
+    {
+        "id":4,
+        "front":"grape",
+        "back":"виноград"
+    },
+    {
+        "id":5,
+        "front":"lemon",
+        "back":"лимон"
+    },
+    {
+        "id":6,
+        "front":"pear",
+        "back":"груша"
+    },
+    {
+        "id":7,
+        "front":"pineapple",
+        "back":"ананас"
+    }
+]
