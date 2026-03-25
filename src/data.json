@@ -11,8 +11,8 @@
     },
     {
         "id":3,
-        "front":"banana",
-        "back":"банан"
+        "front":"watermelone",
+        "back":"арбуз"
     },
     {
         "id":4,
@@ -26,12 +26,29 @@
     },
     {
         "id":6,
-        "front":"pear",
-        "back":"груша"
+        "front":"melone",
+        "back":"дыня"
     },
     {
         "id":7,
         "front":"pineapple",
         "back":"ананас"
+    },
+    {
+        "id":8,
+        "front":"cucumber",
+        "back":"огурец"
+    },
+    {
+        "id":9,
+        "front":"dragon fruit",
+        "back":"драконий фрукт"
+    },
+    {
+        "id":10,
+        "front":"lychee",
+        "back":"личи"
     }
+
+
 ]

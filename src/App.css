@@ -18,28 +18,28 @@ body{
 }
 
 .header{
-  background-color: #313b56;
+
+  background-color: pink;
   padding: 20px;
   width: 100%;
- 
 }
 
 h1{
   text-align: center;
-  color:  #f9e5de;
+  color:  white;
   font-size: 50px;
 }
 
 h2{
   text-align: center;
-  color: #313b56;
+  color: pink;
   font-size: 25px;
   margin: 20px;
 }
 
 p{
   text-align: center;
-  color: #313b56;
+  color: pink;
   font-size: 16px;
   margin: 20px;
 }
@@ -48,16 +48,16 @@ p{
   position: relative;
   max-width: 300px;
   min-height: 300px;
-  background-color: #f9e5de;
-  border: solid 2px #313b56;
+  background-color: palevioletred;
+  border: solid 2px #8a154f;
   border-radius: 10px;
   margin: 5px auto;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  transform-style: preserve-3d;
   transition: transform 0.5s;
+  transform-style: preserve-3d;
 }
 
 .card-check {
@@ -71,8 +71,8 @@ p{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f9e5de;
-  border: solid 2px #313b56;
+  background-color: pink;
+  border: solid 2px #ff008c;
   border-radius: 10px;
   transform: rotateY(180deg);
   backface-visibility: hidden;
@@ -85,21 +85,6 @@ p{
     margin-top: 20px;
 }
 
-
-.button:disabled{
-  border: grey solid 1px;
-  background-color: lightgray;
-  color: gray;
-}
-
-button:disabled:hover,
-button:disabled:focus {
-  border:grey solid 1 px;
-  background: lightgray;
-  color: gray;
-  transform: scale(1);
-}
-
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -107,16 +92,28 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #313b56;
+  background-color: pink;
   cursor: pointer;
   transition: border-color 0.25s;
   color: white;
 }
+button:disabled{
+  border: pink solid 1px;
+  background-color: pink;
+  color: pink;
+}
+
+button:disabled:hover,
+button:disabled:focus {
+  border: #ff008c solid 1px;
+  background-color: pink;
+  color: white;
+}
 button:hover {
-  border-color: #646cff;
+  border-color: palevioletred;
 }
 button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  outline: 4px auto;
 }
 
