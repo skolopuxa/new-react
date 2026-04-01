@@ -1,54 +1,122 @@
 [
     {
-        "id":1,
-        "front":"apple",
-        "back":"яблоко"
+        "id": 1,
+        "front": "apple",
+        "back": "яблоко",
+        "setName": "English"
     },
     {
-        "id":2,
-        "front":"orange",
-        "back":"апельсин"
+        "id": 2,
+        "front": "orange",
+        "back": "апельсин",
+        "setName": "English"
     },
     {
-        "id":3,
-        "front":"watermelone",
-        "back":"арбуз"
+        "id": 3,
+        "front": "watermelone",
+        "back": "арбуз",
+        "setName": "English"
     },
     {
-        "id":4,
-        "front":"grape",
-        "back":"виноград"
+        "id": 4,
+        "front": "grape",
+        "back": "виноград",
+        "setName": "English"
     },
     {
-        "id":5,
-        "front":"lemon",
-        "back":"лимон"
+        "id": 5,
+        "front": "lemon",
+        "back": "лимон",
+        "setName": "English"
     },
     {
-        "id":6,
-        "front":"melone",
-        "back":"дыня"
+        "id": 6,
+        "front": "melone",
+        "back": "дыня",
+        "setName": "English"
     },
     {
-        "id":7,
-        "front":"pineapple",
-        "back":"ананас"
+        "id": 7,
+        "front": "pineapple",
+        "back": "ананас",
+        "setName": "English"
     },
     {
-        "id":8,
-        "front":"cucumber",
-        "back":"огурец"
+        "id": 8,
+        "front": "cucumber",
+        "back": "огурец",
+        "setName": "English"
     },
     {
-        "id":9,
-        "front":"dragon fruit",
-        "back":"драконий фрукт"
+        "id": 9,
+        "front": "dragon fruit",
+        "back": "драконий фрукт",
+        "setName": "English"
     },
     {
-        "id":10,
-        "front":"lychee",
-        "back":"личи"
+        "id": 10,
+        "front": "lychee",
+        "back": "личи",
+        "setName": "English"
+    },
+    {
+        "id": 11,
+        "front": "margin",
+        "back": "отступ внешний",
+        "setName": "css-свойства"
+    },
+    {
+        "id": 12,
+        "front": "margin",
+        "back": "отступ внешний",
+        "setName": "css-свойства"
+    },
+    {
+        "id": 13,
+        "front": "margin",
+        "back": "отступ внешний",
+        "setName": "css-свойства"
+    },
+    {
+        "id": 14,
+        "front": "margin",
+        "back": "отступ внешний",
+        "setName": "css-свойства"
+    },
+    {
+        "id": 15,
+        "front": "margin",
+        "back": "отступ внешний",
+        "setName": "css-свойства"
+    },
+    {
+        "id": 16,
+        "front": "margin",
+        "back": "отступ внешний",
+        "setName": "css-свойства"
+    },
+    {
+        "id": 17,
+        "front": "margin",
+        "back": "отступ внешний",
+        "setName": "css-свойства"
+    },
+    {
+        "id": 18,
+        "front": "margin",
+        "back": "отступ внешний",
+        "setName": "css-свойства"
+    },
+    {
+        "id": 19,
+        "front": "margin",
+        "back": "отступ внешний",
+        "setName": "css-свойства"
+    },
+    {
+        "id": 20,
+        "front": "margin",
+        "back": "отступ внешний",
+        "setName": "css-свойства"
     }
-
-
 ]
