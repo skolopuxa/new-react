@@ -8,7 +8,7 @@ export function FormCreateCard() {
       padding: "20px",
       border: "1px solid #ccc",
       borderRadius: "8px",
-      backgroundColor: "#f9f9f9",
+      backgroundColor: "#e977b9ff",
     },
     label: {
       marginBottom: "10px",

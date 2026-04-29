@@ -6,13 +6,13 @@ export function FormCreateSet() {
       width: "350px",
       margin: "20px auto",
       padding: "20px",
-      border: "1px solid #ccc",
-      borderRadius: "8px",
-      backgroundColor: "#f0f8ff",
+      borderRadius: "20px",
+      backgroundColor: "pink",
     },
     label: {
       marginBottom: "10px",
       fontWeight: "bold",
+      color: "#41082b"
     },
     input: {
       width: "100%",
@@ -30,7 +30,7 @@ export function FormCreateSet() {
     },
     submit: {
       padding: "10px",
-      backgroundColor: "#0066cc",
+      backgroundColor: "palevioletred",
       color: "white",
       border: "none",
       borderRadius: "4px",
